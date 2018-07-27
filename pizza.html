@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dolabella's Pizza</title>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		<link rel="stylesheet" href="pizza.css">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div id="menuBG">
+			<h1>Dolabella's Pizzeria</h1>
+			
+			
+				<hr>
+					
+					<h2>Size:</h2>
+					<input class="size" type="radio" class="radio" name="Size" value="Personal Pizza"> Personal Pizza <br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza <br>
+					<input class="size" type="radio" name="Size" value="Large Pizza"> Large Pizza <br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza <br>
+				
+				
+				<hr>
+				
+					<h2>Crust: </h2>
+					<h3> Cheese Stuffed Crust available for + $3. </h3>
+					<input class="crust" type="radio" name="Crust" value="Plain Crust"> Plain Crust <br><br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust <br><br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br> <br>
+					<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust <br><br>
+					<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br><br>
+				
+				
+				<hr>
+				
+					<h2>Sauce:</h2>
+				
+					<input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br><br>
+					<input class="sauce" type="radio" name="Sauce" value="Marinara Sauce"> Marinara Sauce <br><br>
+					<input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce"> Barbeque Sauce<br> <br>
+					<input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br><br>
+				
+				
+			
+				 <hr>
+				
+					<h2>Cheese:</h2>
+					<h3> Extra Cheese available for + $3, regardless of the size of the pizza. </h3>
+					<input class="cheese" type="radio" name="Cheese" value="No cheese"> No Cheese<br><br>
+					<input class="cheese" type="radio" name="Cheese" value="Regular"> Regular<br><br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br><br>
+				
+				<hr>
+				
+				
+				
+				
+					<h2>Meat:</h2>
+					<h3> Your first meat is complimentary. Each meat after is available for a + $1 charge. </h3>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br><br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br><br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> <br>
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br><br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br><br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br><br>
+				
+				
+				<hr>
+				
+					<h2>Veggie:</h2>
+					<h3> Your first veggie is complimentary. Each  veggie after is available for a + $1 charge. </h3>
+
+					<input class="veggie" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes <br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Onions"> Onions <br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Olives"> Olives <br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Green Peppers"> Green Pepper <br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Pineapple"> Pineapple <br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Spinach"> Spinach<br><br>
+					<input class="veggie" type="checkbox" name="Veggie" value="Jalepeno"> Jalepeno <br><br>
+				
+				
+				<hr>
+					<input id="btnOrder" type="button" class="button" onclick="getReceipt()" 
+				value="Place Order">
+			<form id="frmMenu">
+				<div id="cart">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+				</div>
+			</form>
+		</div>
+		<script src="pie.js"></script>
+	</body>
+</html>

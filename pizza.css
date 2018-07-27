@@ -1,0 +1,63 @@
+body {
+	background-color: #cc8b3c;
+}
+h1 {
+	color: #e8d2b9;
+	font-family: 'Luckiest Guy', cursive;
+	letter-spacing: 8px; 
+	font-size: 3.0em; 
+}
+h2 {
+	color: #f8df4f;
+	font-size: 1.774em;
+}
+h3 {
+	color: #000;
+	font-size: 1.1em;
+}
+.box {
+	margin: 20px 5px;
+	padding: 5px 5px;
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+}
+* {
+    box-sizing: border-box;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #F8DF4F; 
+    color: black; 
+    border: 2px solid;
+}
+
+.button:hover {
+    background-color: #541f12;
+    color: white;
+}
+#menuBG {
+	max-width: 100em;
+	margin: auto;
+	padding: 0 2.5em; 
+	
+}
+
+ 
+@media screen and (max-width: 25em) {
+  body { font-size: 90%;}
+}

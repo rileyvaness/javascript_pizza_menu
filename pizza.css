@@ -2,14 +2,17 @@ body {
 	background-color: #cc8b3c;
 }
 h1 {
-	color: #e8d2b9;
-	font-family: 'Luckiest Guy', cursive;
+	color: #000; 
+	font-family: 'Bangers', cursive;
 	letter-spacing: 8px; 
 	font-size: 3.0em; 
+  position: relative;
+  
 }
 h2 {
-	color: #f8df4f;
-	font-size: 1.774em;
+	color: #e8d2b9;
+	font-size: 2.2em;
+  font-family: Aldrich;
 }
 h3 {
 	color: #000;
@@ -22,9 +25,7 @@ h3 {
 	width: 200px;
 	height: 200px;
 }
-* {
-    box-sizing: border-box;
-}
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -38,6 +39,9 @@ h3 {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    position: relative; 
+   
+  width: 300px;
 }
 
 .button {
@@ -56,8 +60,53 @@ h3 {
 	padding: 0 2.5em; 
 	
 }
-
- 
-@media screen and (max-width: 25em) {
-  body { font-size: 90%;}
+.card{
+  width: 800px;
+  height: 50%;
+  position: relative;
+  left: 200px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 8px 8px 4px black;
 }
+#hello {
+  width: 700px;
+  height: 200px;
+  position: relative;
+  left: 00px;
+  top: 00px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 8px 8px 4px black;
+}
+.navbar{
+  background-color: #fff;
+  box-shadow: 4px 8px 8px 4px black;
+  position: relative; 
+  left: 200px;
+  
+  margin: 20px;
+  padding: 10px;
+  height: 130px;
+  width: 800px;
+}
+.text {
+  font-family: Poiret One;
+  letter-spacing: 12px;
+ position: relative;
+  left: 60px;
+}
+.text2{
+  font-family: times;
+  position: relative; 
+  left: 350px;
+}
+.box{
+  height: 80px;
+  width: 750px;
+  box-shadow: 2px 2px 2px black;
+  background-color: grey; #e8d2b9;
+}
+ 
